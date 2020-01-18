@@ -42,7 +42,7 @@ class StockItemList extends Component {
       manufacturer: 'Apple'
     },
     {
-      name: 'Item 3',
+      name: 'Item 31',
       description: 'The third item',
       stock: 20,
       unitPrice: 75.5,
@@ -61,7 +61,8 @@ class StockItemList extends Component {
 
   async componentDidMount() {
     this.setState({
-      data: this.data
+      data: await this.props.stockService.listStockItems()
+      //data: this.data
     });
   }
 

@@ -99,7 +99,12 @@ class UIShell extends Component {
           </SideNavItems>
         </SideNav>
         <Content id="main-content">
-          <UIShellBody patternName={this.state.patternName} />
+          <Content id="main-content">
+            <UIShellBody
+              patternName={this.state.patternName}
+              stockService={this.props.stockService}
+            />
+          </Content>
         </Content>
       </div>
     );
