@@ -13,7 +13,7 @@ import UIShellBody from './UIShellBody';
 
 const Fade20 = () => (
   <svg
-    icon
+    icon="jmt"
     width="20"
     height="20"
     xmlns="http://www.w3.org/2000/svg"
