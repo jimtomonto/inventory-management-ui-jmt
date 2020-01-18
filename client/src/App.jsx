@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import UIShell from './components/UIShell';
 import './App.scss';
 
-import { StockItemService } from './services/stock-item.service';
+import { StockItemMockService } from './services/stock-item-mock.service';
+//import { StockItemService } from './services/stock-item.service';
 
 class App extends Component {
   constructor(props) {
     super(props);
 
-    this.stockService = props.stockService || new StockItemService();
+    this.stockService = props.stockService || new StockItemMockService();
   }
 
   render() {
