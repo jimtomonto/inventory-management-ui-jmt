@@ -12,7 +12,7 @@ export class StockItemMockService {
         stock: 10,
         unitPrice: 100.0,
         picture: 'test',
-        manufacturer: 'unknown'
+        manufacturer: 'Jim'
       },
       {
         name: 'Item 2',

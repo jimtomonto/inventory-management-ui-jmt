@@ -3,6 +3,7 @@ import * as superagent from 'superagent';
 export class StockItemService {
   constructor(baseUrl) {
     this.baseUrl = baseUrl || '/api';
+    console.log('this.baseUrl: ' + this.baseUrl);
   }
 
   async listStockItems() {

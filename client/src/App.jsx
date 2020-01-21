@@ -8,7 +8,7 @@ import { StockItemService } from './services/stock-item.service';
 class App extends Component {
   constructor(props) {
     super(props);
-
+    //this.stockService = props.stockService || new StockItemMockService();
     this.stockService = props.stockService || new StockItemService();
   }
 
