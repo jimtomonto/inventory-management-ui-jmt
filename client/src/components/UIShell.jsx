@@ -32,7 +32,7 @@ const Fade20 = () => (
 );
 
 class UIShell extends Component {
-  header = 'Big Jim Widgets CI-CD Push';
+  header = 'Big Jim Widgets CI-CD Push2';
   menuTitle = 'Inventory Management';
   menuItems = [
     'Stock Items',
